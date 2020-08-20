@@ -14,7 +14,7 @@ a{
 .nav{
 	height: 56px;
 	width: 100%;
-	background-color: #fff;
+	background-color: #648e93;
 	box-shadow: 0 2px 6px rgba(0,0,0,.04);
 }
 .navSize{
@@ -94,13 +94,13 @@ opacity: 1; /*膸�絨丞�倶�� ����綺�減1*/
 	float: left;
 	width: 30px;
 	height: 30px;
-	background: url(//download.99couple.top/theme/align-right.png);
+	background: url(//cdn.jsdelivr.net/gh/Musenxi/somejscss/cloud/style/align-right.png);
 	background-size:100% 100%;
 	transition: .6s;
 }
 /* �丈������icon */
 .icon:hover{
-	background: url(//download.99couple.top/theme/close.png);
+	background: url(//cdn.jsdelivr.net/gh/Musenxi/somejscss/cloud/style/close.png);
 	background-size:100% 100%;
 	transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);
@@ -110,7 +110,7 @@ opacity: 1; /*膸�絨丞�倶�� ����綺�減1*/
 }
 /* ��研�桁�� */
 body {
-	background-color: #FFF;
+	background-color: #648e93;
 	padding-bottom: 60px;
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -118,42 +118,48 @@ body {
 }
 
 .nexmoe-item {
-	margin: 20px -8px 0!important;
-	padding: 15px!important;
-	border-radius: 5px;
-	background-color: #fff;
-	-webkit-box-shadow: 1px 1px 20px 1px rgba(0,0,0,.05);
-	box-shadow: 1px 1px 20px 1px rgba(0,0,0,.05);
-	background-color: #fff
+	margin:20px -8px 0!important;
+	padding:15px!important;
+	border-radius:5px;
+	background-color:#648e93;
+	-webkit-box-shadow:0 .5em 3em rgba(161,177,204,.4);
+	box-shadow:0 .5em 3em rgba(161,177,204,.4);
+	background-color:#648e93
 }
-
-.mdui-img-fluid,.mdui-video-fluid {
-	border-radius: 5px;
+.mdui-img-fluid,.mdui-video-fluid
+{
+	border-radius:5px;
+	border:1px solid #eee
+		    
 }
-
-.mdui-list {
-	padding: 0
+.mdui-list
+{
+	padding:0
+		    
 }
-
-.mdui-list-item {
-	margin: 0!important;
-	border-radius: 5px;
-	padding: 0 10px 0 5px!important;
-	border: 1px solid #eee;
-	margin-bottom: 10px!important
+.mdui-list-item
+	{
+	margin:0!important;
+	border-radius:5px;
+	padding:0 10px 0 5px!important;
+	border:1px solid #eee;
+	margin-bottom:10px!important
+		    
 }
-
-.mdui-list-item:last-child {
-	margin-bottom: 0!important
+.mdui-list-item:last-child
+{
+	margin-bottom:0!important
+		    
 }
-
-.mdui-list-item:first-child {
-	border: none
+.mdui-list-item:first-child
+{
+	border:none
+		    
 }
 
 .mdui-toolbar {
 	width: auto;
-	margin-top: 30px!important
+	margin-top: 40px!important
 }
 
 .mdui-appbar .mdui-toolbar {
@@ -201,7 +207,7 @@ body {
 
 .mdui-toolbar>a:last-child {
 	opacity: 1;
-	background-color: #7e7e7e;
+	background-color: #93b5cf;
 	color: #ffffff;
 }
 
@@ -225,23 +231,23 @@ body {
 }
 .mdui-theme-accent-blue .mdui-color-theme-accent {
   color: #fff !important;
-  background-color: #35B995 !important;
+  background-color: #134857 !important;
 }
 .mdui-theme-accent-blue .mdui-typo a {
-  color: #35B995;
+  color: #134857;
 }
 .mdui-theme-accent-blue .mdui-typo a:before {
-  background-color: #35B995;
+  background-color: #134857;
 }
 .mdui-theme-accent-blue .mdui-textfield-focus .mdui-textfield-input {
-  border-bottom-color: #35b995;
-  -webkit-box-shadow: 0 1px 0 0 #35b995;
-          box-shadow: 0 1px 0 0 #35b995;
+  border-bottom-color: #134857;
+  -webkit-box-shadow: 0 1px 0 0 #134857;
+          box-shadow: 0 1px 0 0 #134857;
 }
 .mdui-theme-accent-blue .mdui-textfield-focus .mdui-textfield-label,
 .mdui-theme-accent-blue .mdui-textfield-focus .mdui-textfield-floating-label.mdui-textfield-focus .mdui-textfield-label,
 .mdui-theme-accent-blue .mdui-textfield-focus .mdui-icon {
-  color: #35B995;
+  color: #134857;
 }
 .mdui-theme-primary-blue-grey .mdui-color-theme {
   color: #fff !important;
