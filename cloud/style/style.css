@@ -5,7 +5,6 @@ padding: 0;
 a{
 	text-decoration: none;
 }
-/* ���闓����� */
 ::-webkit-scrollbar
 { 
 	width: 0px;
@@ -14,7 +13,7 @@ a{
 .nav{
 	height: 56px;
 	width: 100%;
-	background-color: #648e93;
+	background-color: #d1c2d3;
 	box-shadow: 0 2px 6px rgba(0,0,0,.04);
 }
 .navSize{
@@ -23,7 +22,6 @@ a{
 	max-width: 1100px;
 	margin: 0 auto;
 }
-/* 紊翫�� */
 .avatar{
 	position: absolute;
 	top: 4px;
@@ -34,7 +32,6 @@ a{
 	border-radius: 50%;
 	transition: 1.2s;
 }
-/* 紊翫������ */
 .avatar:hover{
 	transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);
@@ -47,7 +44,6 @@ a{
 	top: 13px;
 	right: 5%;
 }
-/* 絲取�� */
 .navul{
 	display: none;
 	float: left;
@@ -69,27 +65,24 @@ a{
 .navli a:hover{
 	color: #35B995;
 }
-/* 絎�箙����� */
 @-webkit-keyframes fadeIn {
 0% {
-opacity: 0; /*��紮��倶�� ����綺�減0*/
+opacity: 0; 
 }
 50% {
-opacity: 0; /*筝㊨�雁�倶�� ����綺�減0*/
+opacity: 0; 
 }
 100% {
-opacity: 1; /*膸�絨丞�倶�� ����綺�減1*/
+opacity: 1; 
 }
 }
-/* 篌�瓜�榊ｰ */
 .navRight:hover ul{
 	display: table;
-	-webkit-animation-name: fadeIn; /*���糸��腱�*/
-	-webkit-animation-duration: 0.8s; /*���紙��膸㊥�狗��*/
-	-webkit-animation-iteration-count: 1; /*���紙���*/
-	-webkit-animation-delay: 0s; /*綮区��狗��*/
+	-webkit-animation-name: fadeIn;
+	-webkit-animation-duration: 0.8s; 
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-delay: 0s;
 }
-/* �丈��icon */
 .icon{
 	float: left;
 	width: 30px;
@@ -98,7 +91,6 @@ opacity: 1; /*膸�絨丞�倶�� ����綺�減1*/
 	background-size:100% 100%;
 	transition: .6s;
 }
-/* �丈������icon */
 .icon:hover{
 	background: url(//cdn.jsdelivr.net/gh/Musenxi/somejscss/cloud/style/close.png);
 	background-size:100% 100%;
@@ -108,7 +100,6 @@ opacity: 1; /*膸�絨丞�倶�� ����綺�減1*/
 	-o-transform: rotate(360deg);
 	-ms-transform: rotate(360deg);
 }
-/* ��研�桁�� */
 body {
 	background-color: #648e93;
 	padding-bottom: 60px;
